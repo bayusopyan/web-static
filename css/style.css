@@ -1,0 +1,51 @@
+*{
+    box-sizing:0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 14px;
+    background-color: azure;
+}
+
+.container{
+    width: 100%;
+    max-width: 800px;
+    margin:0 auto;
+}
+nav{
+    width: 100%;
+    background: yellow;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-right: 1px solid;
+    color: burlywood;
+}
+
+nav ul li a:hover{
+    background: chocolate;
+    color: yellow;
+}
+
+.header{
+    padding: 60px;
+    background:url("../images/shiftacademy.jpg");
+    background-color: rebeccapurple;
+    height:20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
